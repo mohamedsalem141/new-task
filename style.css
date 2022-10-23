@@ -1,0 +1,230 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+nav {
+    background: url(blue_bg.png) no-repeat center;
+    background-size: cover;
+    width: max-content;
+}
+.s1{
+    background: url(blue_bg.png) no-repeat center;
+    background-size: cover; 
+}
+
+/* star nav bar */
+nav {
+    display: flex;
+    justify-content: space-around; 
+    width: 100%  ;
+ 
+
+
+    
+}
+
+nav .n1{
+   margin-right: 500px;
+}
+
+nav a{
+    position: relative;
+    bottom: 40px;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+nav input{
+    width: 100px;
+position: relative;
+top: 40px;
+padding: 10px;
+padding-left: 30px;
+border-radius: 20px;
+border: none;
+font-size: medium;
+}
+nav input:focus{
+    outline: none;
+}
+/* end nav bar */
+
+
+/* section one */
+.s1 {
+
+    display:flex;
+    justify-content: space-around;
+    height: 600px;
+    background: url(blue_bg.png) no-repeat center;
+    background-size: cover; 
+   
+}
+
+.s1 .s2{
+    color: gray;
+   margin-right: 400px;
+   margin-top: 200px;
+   width: 400px;
+   
+   
+}
+
+.s1.s3{
+    position:relative;
+}
+
+.s1 .img1{
+    position: absolute; 
+    right: 20px; 
+}
+
+.s1 .img2{
+    position: absolute;
+    right: 320px;
+    top: 145px;
+}
+
+.s1 .img3{
+    position: absolute;
+    bottom: 80px;
+   right: 320px;
+}
+
+.s1 .img4{
+    position: absolute;
+    left: -300px;
+    top: 570px;
+}
+
+/* section tow */
+.mid{
+    background-image: url(second_section_.png) no-repeat fixed center;
+    background-size: cover;
+    margin: 200px;
+    margin-left: 300px;
+    
+    
+}
+
+.mid .nnn{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.mid .mid1{
+    position: absolute;
+    bottom: -40px;
+    left:-80px ;
+}
+
+.mid .mid2{
+    position: absolute;
+    bottom: 90px;
+    left:380px ;  
+}
+
+.mid .mid3{
+    position: absolute;
+    right:0px ;
+    top: -10px;
+}
+
+.mmm{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    margin-top: 300px;
+    height: 500px;
+    position: relative;
+    right: 0px;
+}
+
+.mmm .m1{
+    position: absolute;
+    left:130px;
+    top: 100px;
+}
+
+.mmm .m2{
+    position: absolute;
+    left: 430px;
+}
+
+.mmm .m3{
+    position: absolute;
+    right:220px; 
+    top: 100px;
+}
+
+footer{
+    position: relative;
+     
+}
+.ss .sa{
+    background-image: url(Untitled.png) no-repeat fixed center;
+    background-size:cover;
+    position: absolute;
+    margin-top: -150px;
+    z-index: -3;
+    height: 610px;
+}
+
+.ss .apple{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: small;
+    padding-left: 30px;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+}
+
+.ss .play{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: small;
+    padding-left: 30px;
+    position: absolute;
+    top: 280px;
+    left: 240px;
+}
+
+.ss .b2{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 350px;
+    left: 90px;
+}
+
+.ss .b2 img{
+    margin: 10px;
+}
+
+.ss .b3{
+    display: flex;
+    position: absolute;
+    top:410px ;
+    left: 90px;
+}
+
+.ss .b3 a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.ss .b4{
+    position: absolute;
+    left: 740px;
+    top: 10px;
+}
